@@ -1,0 +1,43 @@
+body {
+    font-family: sans-serif;
+    background-color: rgb(247, 244, 241);
+}
+
+#container {
+    background-color: #1b3a4d;
+    border: 5px solid #f1c7ec;
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+}
+
+h1 {
+    text-align: center;
+}
+
+#btnrandom {
+    margin: 20px auto;
+    height: 50px;
+    width: 250px;
+    font-size: 22px;
+    background-color: rgb(192, 191, 191);
+
+}
+
+#btncategory{
+    margin-top: 25px;
+    height: 40px;
+    width: 200px;
+    font-size: 18px;
+    background-color: rgb(192, 191, 191);
+}
+
+#btnrandom:hover, #btncategory:hover{
+    cursor: pointer;
+}
+
+#outputrandom, #outputcategory{
+    margin: 20px auto;
+    font-size: 22px;
+    color: white;
+}
